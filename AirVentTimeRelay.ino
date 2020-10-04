@@ -10,18 +10,18 @@
 //#define DEBUG
 #endif
 
-#define BTN_ACTIVE 2
+#define BTN_ACTIVE 7
 
-#define BTN_ON_DELAY_BIT1 3
+#define BTN_ON_DELAY_BIT1 6
 #define BTN_ON_DELAY_BIT0 5
-#define BTN_OFF_DELAY_BIT1 6
-#define BTN_OFF_DELAY_BIT0 7
+#define BTN_OFF_DELAY_BIT1 3
+#define BTN_OFF_DELAY_BIT0 2
 
-#define BTN_LIGHT 10
-#define BTN_AIRVT 11
+#define BTN_LIGHT 11
+#define BTN_AIRVT 10
 
 #define REL_LIGHT 12
-#define REL_AIRVT 13
+#define REL_AIRVT 14
 
 #define STATE_IDLE 0x00
 #define STATE_LIGHT_ONLY 0x01
