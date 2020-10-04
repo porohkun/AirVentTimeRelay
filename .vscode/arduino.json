@@ -1,0 +1,7 @@
+{
+    "sketch": "AirVentTimeRelay.ino",
+    "port": "COM3",
+    "programmer": "AVRISP mkII",
+    "board": "arduino:avr:diecimila",
+    "configuration": "cpu=atmega168"
+}
