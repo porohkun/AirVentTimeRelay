@@ -237,6 +237,8 @@ void airvtOnlyStart()
 
 State airvtOnlyTriggers()
 {
+	if (Button.GetState(BTN_LIGHT))
+		return STATE_BOTH;
 	if (Button.GetUp(BTN_AIRVT))
 		return STATE_IDLE;
 	if (millis() - _lightOnlyStartTime > TimeBeforeAirventOffAfterLightOff())
